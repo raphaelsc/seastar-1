@@ -34,7 +34,7 @@ yum --enablerepo rawhide install libubsan libasan
 
 Installing required packages:
 ```
-yum install libaio-devel ninja-build ragel hwloc-devel numactl-devel libpciaccess-devel cryptopp-devel gnutls-devel
+yum install libaio-devel ninja-build ragel hwloc-devel numactl-devel libpciaccess-devel cryptopp-devel gnutls-devel protobuf-devel
 ```
 
 You then need to run the following to create the "build.ninja" file:
